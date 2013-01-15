@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game/Scripts/Manager/InputManager.js">
+    <Files>
+      <File FileName="Assets/Game/Scripts/Manager/EnemyManager.js" Line="377" Column="55" />
+      <File FileName="Assets/Game/Scripts/Object/CatController.js" Line="56" Column="3" />
+      <File FileName="Assets/Game/Scripts/Editor/SequenceEditor.js" Line="96" Column="5" />
+      <File FileName="Assets/Game/Scripts/Editor/LevelEditor.js" Line="111" Column="59" />
+      <File FileName="Assets/Game/Scripts/Menu/EquipSlot.js" Line="268" Column="14" />
+      <File FileName="Assets/Game/Scripts/Manager/InputManager.js" Line="99" Column="16" />
+      <File FileName="Assets/Game/Scripts/Object/Fire.js" Line="20" Column="32" />
+      <File FileName="Assets/Game/Scripts/Controller/PlayerController.js" Line="230" Column="6" />
+      <File FileName="Assets/Game/Scripts/Object/Enemy.js" Line="132" Column="12" />
+      <File FileName="Assets/Game/Scripts/Manager/ScoreManager.js" Line="107" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

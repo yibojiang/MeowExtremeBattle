@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C0366CA2-DD8C-169A-0AC4-36BA819C4DAB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Game\Scripts\Behavior\CustomPath.js" />
+     <Compile Include="Assets\Game\Scripts\Behavior\SinPath.js" />
+     <Compile Include="Assets\Game\Scripts\Behavior\StraightPath.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\BarrageLauncherController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\BeamGunController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\BubbleGunController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\FireGunController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\FrozenGunController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\FunnelController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\LaserGunController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\MachineGunController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\MissleLauncherController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\PlayerController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\PositronGunController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\RepairRobotController.js" />
+     <Compile Include="Assets\Game\Scripts\Controller\ShieldController.js" />
+     <Compile Include="Assets\Game\Scripts\Database\Database.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\AudioManager.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\BaseManager.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\CatManager.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\EnemyManager.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\GameManager.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\InputManager.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\ParellaxLayer.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\PlatfromManager.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\ProfileManager.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\ScoreManager.js" />
+     <Compile Include="Assets\Game\Scripts\Manager\WeaponManager.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\Aim.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\BGFade.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\CatCard.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\CatSelectCard.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\CustomButton.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\Dialog.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\DragItem.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\EnergyPoint.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\EquipSlot.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\FlashBar.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\MainMenu.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\MapProgress.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\ReadyMenu.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\ResultMenu.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\ScrollList.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\SkillButton.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\UICircle.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\WeaponSlot.js" />
+     <Compile Include="Assets\Game\Scripts\Menu\YNMenu.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Barrage.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Beam.js" />
+     <Compile Include="Assets\Game\Scripts\Object\BubbleBall.js" />
+     <Compile Include="Assets\Game\Scripts\Object\BuildingLoop.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Bullet.js" />
+     <Compile Include="Assets\Game\Scripts\Object\CatController.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Cloud.js" />
+     <Compile Include="Assets\Game\Scripts\Object\DamageExplosion.js" />
+     <Compile Include="Assets\Game\Scripts\Object\DamageText.js" />
+     <Compile Include="Assets\Game\Scripts\Object\DragCat.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Enemy.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Entity.js" />
+     <Compile Include="Assets\Game\Scripts\Object\ExplosionGenerator.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Fang.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Fire.js" />
+     <Compile Include="Assets\Game\Scripts\Object\FrozenExplosion.js" />
+     <Compile Include="Assets\Game\Scripts\Object\FrozenShell.js" />
+     <Compile Include="Assets\Game\Scripts\Object\HPbar.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Missle.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Positron.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Protection.js" />
+     <Compile Include="Assets\Game\Scripts\Object\Ship.js" />
+     <Compile Include="Assets\Game\Scripts\Object\ShipComponent.js" />
+     <Compile Include="Assets\Game\Scripts\Object\ShipSkill.js" />
+     <Compile Include="Assets\Game\Scripts\Object\WarningBox.js" />
+     <Compile Include="Assets\Game\Scripts\Tools\AlphaChange.js" />
+     <Compile Include="Assets\Game\Scripts\Tools\CameraController.js" />
+     <Compile Include="Assets\Game\Scripts\Tools\CameraFade.js" />
+     <Compile Include="Assets\Game\Scripts\Tools\Circle.js" />
+     <Compile Include="Assets\Game\Scripts\Tools\FramesPerSecond.js" />
+     <Compile Include="Assets\Game\Scripts\Tools\Glow.js" />
+     <Compile Include="Assets\Game\Scripts\Tools\Rotate.js" />
+     <Compile Include="Assets\Game\Scripts\Tools\Timer.js" />
+     <Compile Include="Assets\Game\Scripts\Tools\TimerController.js" />
+     <Compile Include="Assets\HUDControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\Joystick.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ObliqueNear.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\PlayerRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RollABall.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RotationConstraint.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SidescrollControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Plugins\ex2D\Core\Shaders\SpriteBlendClipping.shader" />
+     <None Include="Assets\Plugins\ex2D\Core\Shaders\SpriteBlendPixelPerfect.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\iTweenEditor\README.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Plugins\ex2D\Core\Shaders\SpriteBlendNoZTest.shader" />
+     <None Include="Assets\Plugins\ex2D\Core\Shaders\SpriteBlend.shader" />
+ <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\ex2D\Core\ex2D.Runtime">
+ <HintPath>Assets\Plugins\ex2D\Core\ex2D.Runtime.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{D0B779D6-5D8C-BDFD-44EF-DB150906F05D}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
